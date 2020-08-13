@@ -6,3 +6,4 @@ link to do practice : https://practice.geeksforgeeks.org/explore/?category%5B%5D
 
 1. Height of Binary Tree
 2. Count Leaves in Binary Tree
+3. Minimum element in BST
