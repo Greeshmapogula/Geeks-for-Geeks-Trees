@@ -1,0 +1,9 @@
+def countNonLeafNodes(root):
+    
+    # add code here
+    if(root == None ):
+        return 0
+    if(root.left == None and root.right==None):
+        return 0
+    else:
+        return (1+countNonLeafNodes(root.left)+countNonLeafNodes(root.right))
