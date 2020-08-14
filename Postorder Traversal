@@ -1,0 +1,18 @@
+def PostO(root,op):
+    if root == None:
+        return
+    PostO(root.left,op)
+    PostO(root.right,op)
+    op.append(root.data)
+    
+    
+def postOrder(root):
+    '''
+    :param root: root of the given tree.
+    :return the list containing post order traversal of the given binary tree.
+    '''
+    # code here
+    op=[]
+    PostO(root,op)
+    return op
+
