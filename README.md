@@ -11,5 +11,6 @@ link to do practice : https://practice.geeksforgeeks.org/explore/?category%5B%5D
 5. Inorder Traversal
 6. Preorder Traversal
 7. Postorder Traversal
-8. Sum of Binary Tree 
+8. Sum of Binary Tree
+9. Count Non-Leaf Nodes in Tree
 
