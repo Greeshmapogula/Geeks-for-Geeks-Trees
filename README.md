@@ -9,3 +9,4 @@ link to do practice : https://practice.geeksforgeeks.org/explore/?category%5B%5D
 3. Minimum element in BST
 4. Size of Binary Tree
 5. Inorder Traversal
+6. Preorder Traversal
