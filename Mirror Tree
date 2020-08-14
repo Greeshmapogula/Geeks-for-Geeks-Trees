@@ -1,0 +1,10 @@
+def mirror(root):
+    # Code here
+    if(root == None):
+        return
+    else:
+        temp = root.left
+        root.left=root.right
+        root.right=temp
+        mirror(root.left)
+        mirror(root.right)
