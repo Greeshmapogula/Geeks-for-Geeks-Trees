@@ -1,0 +1,14 @@
+'''
+def InO(root,op):
+    if root == None:
+        return
+    InO(root.left,op)
+    op.append(root.data)
+    InO(root.right,op)
+
+# Return a list containing the inorder traversal of the given tree
+def InOrder(root):
+    # code here
+    op = []
+    InO(root,op)
+    return op
