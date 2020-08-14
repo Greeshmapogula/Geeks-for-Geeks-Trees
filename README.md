@@ -10,3 +10,4 @@ link to do practice : https://practice.geeksforgeeks.org/explore/?category%5B%5D
 4. Size of Binary Tree
 5. Inorder Traversal
 6. Preorder Traversal
+7. Postorder Traversal
