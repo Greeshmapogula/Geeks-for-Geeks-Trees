@@ -1,0 +1,12 @@
+def PreO(root,op):
+    if root == None:
+        return
+    op.append(root.data)
+    PreO(root.left,op)
+    PreO(root.right,op)
+def preorder(root):
+    
+    # code here
+    op=[]
+    PreO(root,op)
+    return op
