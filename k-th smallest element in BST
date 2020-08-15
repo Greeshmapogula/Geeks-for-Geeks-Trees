@@ -1,0 +1,15 @@
+def inorder(root,l):
+    if(root == None):
+        return -1
+    inorder(root.left,l)
+    l.append(root.data)
+    inorder(root.right,l)
+# Return the Kth smallest element in the given BST 
+def KthSmallestElement(root, K): 
+    #code here.
+    l=[]
+    inorder(root,l)
+    if(K>len(l)):
+        return(-1)
+    return l[K-1]
+    
